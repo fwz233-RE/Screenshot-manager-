@@ -194,6 +194,7 @@ private fun loadScreenshots() {
         recyclerView.setHasFixedSize(true)
         recyclerView.setItemViewCacheSize(screenshotUris.size)
 
+
         if (screenshotsAdapter.itemCount > 0) {
             recyclerView.scrollToPosition(screenshotsAdapter.itemCount - 1)
         }
